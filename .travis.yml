@@ -2,3 +2,8 @@ language: java
 
 script:
         - javac src/HelloWorld.java
+
+jdk:
+  - oraclejdk8
+  - oraclejdk9
+  - openjdk8
